@@ -1,1 +1,77 @@
 # Privileged-Identity-Management
+
+Require Azure AD Premium P2 Licences
+
+What is the purpose of PIM?
+- Used to control privileged access to Azure resources
+- IT Admins must ensure that authorized users have the required access to do their job.
+- If a user leaves the department or company, PIM will ensure that their access is managed.
+
+
+What services does PIM provide?
+- JIT access to Azure AD and Azure Resources
+- Assign <em> time-bound access </em> to resources using start and end dates
+- Require approval to activate privileged roles
+- Enfore MFA to activate any role
+- Get notifications when privileged roles are activated
+- Conduct UAR to ensure users still require the roles
+- and MORE..
+
+How do IT admins enable Privileged Identity Management (PIM)?
+- IT admins will need to log in as the Global Administrator
+- Consent to using PIM
+- Verify identity with MFA
+
+
+
+How to use Privileged Identity Management (PIM)?
+- Important ** After assigning a Azure AD role, the user must <em> activate </em> the role assigned to them. 
+- Note that IT admins can edit settings of the Azure AD role assigned to users such as limiting the time duration a user has access to a particular role or require MFA
+
+
+# How to navigate to Privileged Identity Management
+- Search for the service Privileged Identity Mananagement > Azure AD Roles > Assignments > Add assignments for your users
+
+<p align="center">
+  
+<img src="https://user-images.githubusercontent.com/104326475/167491136-3711bda2-d50d-4f90-a1b6-ce2e6ccb4cda.png" height="55%" width="55%" alt="Privileged Identity Management"/>
+  
+<p/>
+
+- After selecting Azure AD Roles, select the Assignments blade
+
+<p align="center">
+  
+<img src="https://user-images.githubusercontent.com/104326475/167491476-2bbcc1d1-7086-431b-98ff-5d3b86d14561.png" height="80%" width="80%" alt="Privileged Identity Management"/>
+  
+<p/>
+
+- IT admins have the ability to assigna a user with time-bound access
+
+<p align="center">
+  
+<img src="https://user-images.githubusercontent.com/104326475/167491857-528b6f43-12fd-47e3-9b27-72369092fac9.png" height="55%" width="55%" alt="Privileged Identity Management"/>
+  
+<p/>
+
+
+- User must activate role assigned by IT admin. MFA may be required.
+
+<p align="center">
+  
+<img src="https://user-images.githubusercontent.com/104326475/167493223-2bc44b24-0511-46d6-8dd1-c8b2859d67e9.png" height="285%" width="285%" alt="Privileged Identity Management"/>
+  
+<p/>
+
+After a user activates a role, MFA will be required. It acts a another layer of protection for privileged roles.
+
+<p align="center">
+  
+<img src="https://user-images.githubusercontent.com/104326475/167493820-3347c16e-cfce-4e0e-8c6f-4a100016788a.png" height="60%" width="60%" alt="Privileged Identity Management"/>
+  
+<p/>
+
+
+
+
+
