@@ -63,7 +63,7 @@ How to use Privileged Identity Management (PIM)?
   
 <p/>
 
-After a user activates a role, MFA will be required. It acts a another layer of protection for privileged roles.
+- After a user activates a role, MFA will be required. It acts a another layer of protection for privileged roles.
 
 <p align="center">
   
