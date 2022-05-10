@@ -1,4 +1,4 @@
-# Privileged-Identity-Management
+# Privileged Identity Management - Azure AD Roles
 
 Require Azure AD Premium P2 Licences
 
@@ -72,6 +72,47 @@ How to use Privileged Identity Management (PIM)?
 <p/>
 
 
+# Privileged Identity Management -  RBAC Roles for Azure Resources
+- Not only does PIM offer management for Azure AD Roles, PIM also manages RBAC roles.
 
 
+
+
+
+How to manage RBAC roles
+- Navigate to PIM > Azure Resources > Select your resource within the subscription > Select Assignments and add the assignment
+- <em> Remember, before adding assignments for RBAC roles, IT admins may need to "Discover Resources" so that PIM can identify the resources within the Azure Subscription.
+  
+Navigate to PIM > Azure Resources
+ - Note that IT admins may need to select "Discover Resources" so that PIM can identigy the resources within your subscription
+
+<p align="center">
+  
+<img src="https://user-images.githubusercontent.com/104326475/167534936-ddfc44f1-e83a-4a42-aea3-3bc574496f52.png" height="200%" width="200%" alt="Privileged Identity Management"/>
+  
+<p/>
+
+- Select Assignments and add a new assignment 
+  
+<p align="center">
+  
+<img src="https://user-images.githubusercontent.com/104326475/167535117-f858359a-29cd-4630-91d9-e6dd77419912.png" height="60%" width="60%" alt="Privileged Identity Management"/>
+  
+<p/>
+
+- Notice that these are RBAC roles and not Azure AD roles 
+  
+<p align="center">
+  
+<img src="https://user-images.githubusercontent.com/104326475/167535342-6983437a-a670-422a-b8b7-94cf50bd9be0.png" height="60%" width="60%" alt="Privileged Identity Management"/>
+  
+<p/>
+
+- Also notice that time-bound restrictions can be applied to the RBAC roles
+  
+<p align="center">
+  
+<img src="https://user-images.githubusercontent.com/104326475/167535317-f33ad89c-83e3-4110-a986-05b7a7942e02.png" height="60%" width="60%" alt="Privileged Identity Management"/>
+  
+<p/>
 
