@@ -96,7 +96,7 @@ Navigate to PIM > Azure Resources
   
 <p align="center">
   
-<img src="https://user-images.githubusercontent.com/104326475/167535117-f858359a-29cd-4630-91d9-e6dd77419912.png" height="60%" width="60%" alt="Privileged Identity Management"/>
+<img src="https://user-images.githubusercontent.com/104326475/167535117-f858359a-29cd-4630-91d9-e6dd77419912.png" height="120%" width="120%" alt="Privileged Identity Management"/>
   
 <p/>
 
@@ -115,4 +115,43 @@ Navigate to PIM > Azure Resources
 <img src="https://user-images.githubusercontent.com/104326475/167535317-f33ad89c-83e3-4110-a986-05b7a7942e02.png" height="60%" width="60%" alt="Privileged Identity Management"/>
   
 <p/>
+  
+  
+# PIM Access Reviews - Azure AD Roles and RBAC Roles
+- PIM also offers IT admins to create User Access Reviews for particular roles.
+  
+  
+  
+How to create access reviews?
+  
+- Navigate to Azure AD or Azure Resources 
+  
+<p align="center">
+  
+<img src="https://user-images.githubusercontent.com/104326475/167537311-2cebd706-8cb2-4116-8ac3-b3fc670d52df.png" height="20%" width="20%" alt="Privileged Identity Management"/>
+  
+<p/>
+  
+
+- If user selects Azure AD blade, select Access Reviews and add an access review
+  
+<p align="center">
+  
+<img src="https://user-images.githubusercontent.com/104326475/167537695-ebaa9cf8-77e4-470d-8e84-d3678c22fc20.png" height="60%" width="60%" alt="Privileged Identity Management"/>
+  
+<p/>
+
+
+  
+  
+- If user selects Azure Resources, select the resource that needs an access review, then select "Access Review"
+- Remember, if the Azure resource does not appear, the user must select Discover or Activate a role.
+  
+<p align="center">
+  
+<img src="https://user-images.githubusercontent.com/104326475/167537806-1b6799bb-0145-481a-a098-c0c6807eadef.png" height="150%" width="150%" alt="Privileged Identity Management"/>
+  
+<p/>
+  
+  
 
