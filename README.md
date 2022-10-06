@@ -12,9 +12,9 @@ What services does PIM provide?
 - JIT access to Azure AD and Azure Resources
 - Assign <em> time-bound access </em> to resources using start and end dates
 - Require approval to activate privileged roles
-- Enfore MFA to activate any role
+- <em> Enfore MFA to activate any role </em>
 - Get notifications when privileged roles are activated
-- Conduct UAR to ensure users still require the roles
+- Conduct User Access Reviews (UAR) to ensure users still require the roles to perform their duties
 - and MORE..
 
 How do IT admins enable Privileged Identity Management (PIM)?
