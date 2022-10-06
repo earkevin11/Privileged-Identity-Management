@@ -38,7 +38,7 @@ How to use Privileged Identity Management (PIM)?
   
 <p/>
 
-- After selecting Azure AD Roles, select the Assignments blade
+# After selecting Azure AD Roles, select the Assignments blade
 
 <p align="center">
   
@@ -46,7 +46,7 @@ How to use Privileged Identity Management (PIM)?
   
 <p/>
 
-- IT admins have the ability to assigna a user with time-bound access
+# IT admins have the ability to assigna a user with time-bound access
 
 <p align="center">
   
@@ -55,7 +55,7 @@ How to use Privileged Identity Management (PIM)?
 <p/>
 
 
-- User must activate role assigned by IT admin. MFA may be required.
+# User must activate role assigned by IT admin. MFA may be required.
 
 <p align="center">
   
@@ -63,7 +63,7 @@ How to use Privileged Identity Management (PIM)?
   
 <p/>
 
-- After a user activates a role, MFA will be required. It acts a another layer of protection for privileged roles.
+# After a user activates a role, MFA will be required. It acts a another layer of protection for privileged roles.
 
 <p align="center">
   
@@ -83,7 +83,7 @@ How to manage RBAC roles
 - Navigate to PIM > Azure Resources > Select your resource within the subscription > Select Assignments and add the assignment
 - <em> Remember, before adding assignments for RBAC roles, IT admins may need to "Discover Resources" so that PIM can identify the resources within the Azure Subscription.
   
-Navigate to PIM > Azure Resources
+# Navigate to PIM > Azure Resources
  - Note that IT admins may need to select "Discover Resources" so that PIM can identigy the resources within your subscription
 
 <p align="center">
@@ -92,7 +92,7 @@ Navigate to PIM > Azure Resources
   
 <p/>
 
-- Select Assignments and add a new assignment 
+# Select Assignments and add a new assignment 
   
 <p align="center">
   
@@ -100,7 +100,7 @@ Navigate to PIM > Azure Resources
   
 <p/>
 
-- Notice that these are RBAC roles and not Azure AD roles 
+# Notice that these are RBAC roles and not Azure AD roles 
   
 <p align="center">
   
@@ -108,7 +108,10 @@ Navigate to PIM > Azure Resources
   
 <p/>
 
-- Also notice that time-bound restrictions can be applied to the RBAC roles
+# Also notice that time-bound restrictions can be applied to the RBAC roles
+- "Eligible" means that the user can elevate up to the assigned role.
+- The user assigned the eligible doe snot have the role until they activate it.
+- "Active" assignment type means the user has the role. Admins can time-bound the role where the user only has it for a specified amount of time.
   
 <p align="center">
   
