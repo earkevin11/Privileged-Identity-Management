@@ -1,14 +1,14 @@
 # Privileged Identity Management - Azure AD Roles
 
-Require Azure AD Premium P2 Licences
+# Require Azure AD Premium P2 Licences
 
-What is the purpose of PIM?
+# What is the purpose of PIM?
 - Used to control privileged access to Azure resources
 - IT Admins must ensure that authorized users have the required access to do their job.
 - If a user leaves the department or company, PIM will ensure that their access is managed.
 
 
-What services does PIM provide?
+# What services does PIM provide?
 - JIT access to Azure AD and Azure Resources
 - Assign <em> time-bound access </em> to resources using start and end dates
 - Require approval to activate privileged roles
@@ -17,14 +17,14 @@ What services does PIM provide?
 - Conduct User Access Reviews (UAR) to ensure users still require the roles to perform their duties
 - and MORE..
 
-How do IT admins enable Privileged Identity Management (PIM)?
+# How do IT admins enable Privileged Identity Management (PIM)?
 - IT admins will need to log in as the Global Administrator
 - Consent to using PIM
 - Verify identity with MFA
 
 
 
-How to use Privileged Identity Management (PIM)?
+# How to use Privileged Identity Management (PIM)?
 - Important ** After assigning a Azure AD role, the user must <em> activate </em> the role assigned to them. 
 - Note that IT admins can edit settings of the Azure AD role assigned to users such as limiting the time duration a user has access to a particular role or require MFA
 
