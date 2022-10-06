@@ -46,7 +46,7 @@ How to use Privileged Identity Management (PIM)?
   
 <p/>
 
-# IT admins have the ability to assigna a user with time-bound access
+# IT admins have the ability to assign a user with time-bound access
 
 <p align="center">
   
