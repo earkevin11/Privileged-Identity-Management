@@ -110,7 +110,7 @@
 
 # Also notice that time-bound restrictions can be applied to the RBAC roles
 - "Eligible" means that the user can elevate up to the assigned role.
-- The user assigned the eligible doe snot have the role until they activate it.
+- The user assigned the eligible does not have the role until they activate it.
 - "Active" assignment type means the user has the role. Admins can time-bound the role where the user only has it for a specified amount of time.
   
 <p align="center">
@@ -125,7 +125,7 @@
   
   
   
-How to create access reviews?
+# How to create access reviews?
   
 - Navigate to Azure AD or Azure Resources 
   
@@ -136,7 +136,7 @@ How to create access reviews?
 <p/>
   
 
-- If user selects Azure AD blade, select Access Reviews and add an access review
+# Azure AD blade > Select Access Reviews > Add an access review
   
 <p align="center">
   
