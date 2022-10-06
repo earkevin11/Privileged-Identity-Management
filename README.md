@@ -79,7 +79,7 @@ How to use Privileged Identity Management (PIM)?
 
 
 
-How to manage RBAC roles
+# How to manage RBAC roles
 - Navigate to PIM > Azure Resources > Select your resource within the subscription > Select Assignments and add the assignment
 - <em> Remember, before adding assignments for RBAC roles, IT admins may need to "Discover Resources" so that PIM can identify the resources within the Azure Subscription.
   
